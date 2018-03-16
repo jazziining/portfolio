@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <div class="container">
+      <div class="main-page-header">
+        <%= image_tag('main-page-banner.jpeg', class:"main-banner-image")%>
+      </div>
+    
+      <div id="subnav" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#about-me">about me</a>
+        <a class="list-group-item list-group-item-action" href="#skills">skills</a>
+        <a class="list-group-item list-group-item-action" href="#my-work">my work</a>
+        <a class="list-group-item list-group-item-action" href="#contact-me">contact me</a>      
+      </div> 
+    </div>
+       
+    <div data-spy="scroll" data-target="#subnav" data-offset="0">
+      <div id="about-me"><%= render 'aboutme'%></div>
+      <div id="skills"><%= render 'skills'%></div>
+      <div id="my-work"><%= render 'mywork'%></div>
+      <div id="contact-me"><%= render 'contactme'%></div>
+    </div>
+    
+  </body>
+</html>

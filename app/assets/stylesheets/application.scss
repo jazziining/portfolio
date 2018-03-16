@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Cookie|Playfair+Display');
+
+.container{
+  position: relative;
+}
+
+.list-group {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  padding: 5px;
+}
+
+.main-banner-image {
+  height: 100%;
+  width: 100%;
+}
+
+.letter {
+  font-family: 'Cookie', cursive;
+  font-size: 100px;
+  margin: 0;
+}
+
+.dot {
+  font-size: 35px;
+}
+
+.lower-case {
+  font-family: 'Playfair Display', serif;
+  margin-top: -25px;
+}
